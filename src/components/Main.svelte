@@ -103,7 +103,6 @@
         />
     </div>
 </div>
-
 <style>
 .wrapper {
     width: 400px;  /* Original container size */
