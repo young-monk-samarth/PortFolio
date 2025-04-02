@@ -143,7 +143,7 @@
         <!-- scroll info about creative -->
     
         
-        <section class="py-16 lg:py-24 flex flex-col gap-16" id="projects">
+      <section class="py-16 lg:py-24 flex flex-col gap-16" id="projects">
             <div class="flex flex-col gap-1.5 text-center">
                 <h6 class="text-large sm:text-xl md:text-2xl">
                     A few of my creative endeavors.
@@ -152,6 +152,29 @@
                     Curious to <span class="poppins text-violet-400">see</span> my work?
                 </h3>
             </div>
+            <style>
+            @media (max-width: 640px) {
+                #projects {
+                    padding-top: 4rem; /* Reduced from py-16 (64px) */
+                    padding-bottom: 4rem;
+                    gap: 4rem; /* Reduced from gap-16 (64px) */
+                }
+        
+                #projects > div {
+                    gap: 0.5rem; /* Reduced from gap-1.5 (6px) */
+                }
+        
+                h6 {
+                    font-size: 1rem; /* Reduced from text-large (assuming 1.25rem or similar) */
+                    line-height: 1.5; /* Better readability */
+                }
+        
+                h3 {
+                    font-size: 1.75rem; /* Reduced from 3xl (30px) */
+                    line-height: 1.3; /* Prevent text from feeling cramped */
+                }
+            }
+            </style>
 
             <!-- buttn to direct video link -->
             <a
