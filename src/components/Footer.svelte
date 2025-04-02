@@ -124,7 +124,7 @@
         
 
         <!-- GitHub Icon -->
-        <a href="https://github.com/young-monk-samarth?tab=repositories" target="_blank" class="icon-container group">
+        <a href="https://github.com/young-monk-samarth" target="_blank" class="icon-container group">
             <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 width="34" 
