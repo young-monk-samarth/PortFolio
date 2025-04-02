@@ -94,7 +94,7 @@
             </div>
 
                 <!-- photo disply-->
-       <div class="wrapper"> <!-- Optional sizing wrapper -->
+      <div class="wrapper"> <!-- Optional sizing wrapper -->
     <div class="box">
         <img 
             src="profile.jpg" 
@@ -103,6 +103,7 @@
         />
     </div>
 </div>
+
 <style>
 .wrapper {
     width: 400px;  /* Original container size */
@@ -143,7 +144,7 @@
         <!-- scroll info about creative -->
     
         
-      <section class="py-16 lg:py-24 flex flex-col gap-16" id="projects">
+        <section class="py-16 lg:py-24 flex flex-col gap-16" id="projects">
             <div class="flex flex-col gap-1.5 text-center">
                 <h6 class="text-large sm:text-xl md:text-2xl">
                     A few of my creative endeavors.
@@ -782,6 +783,7 @@
             Certificates Achieved
         </span>
         <i class="fas fa-award ml-2"></i>
+        
     </h2>
     <div class="flex flex-col gap-6 md:flex-row md:gap-8 justify-between">
         <!-- Left Side: First 3 Cards -->
@@ -860,55 +862,8 @@
             </div>
         </div>
     </div>
-
-    <!-- Media Query for Small Screens -->
-    <style>
-    @media (max-width: 640px) {
-        #cert {
-            padding: 1rem; /* Keep reduced padding */
-        }
-
-        h2 {
-            font-size: 1.5rem; /* Keep smaller title */
-            margin-bottom: 2rem;
-        }
-
-        .flex-col {
-            gap: 2rem; /* Keep reduced gap between cards */
-        }
-
-        .space-y-10 {
-            space-y: 2rem; /* Keep reduced vertical spacing */
-        }
-
-        h3 {
-            font-size: 1.125rem; /* Keep smaller heading */
-            flex-direction: column; /* Keep column layout */
-            gap: 0.5rem; /* Keep consistent gap */
-            align-items: flex-start; /* Keep left alignment */
-            min-height: 3rem; /* Ensure consistent height for all h3 elements */
-        }
-
-        h3 span:first-child {
-            white-space: normal; /* Allow wrapping */
-            max-width: 100%; /* Ensure it takes full width */
-            line-height: 1.2; /* Better line spacing */
-            display: block; /* Force block display for consistent wrapping */
-        }
-
-        h3 span:last-child {
-            white-space: nowrap; /* Prevent date from wrapping */
-            text-align: left; /* Align date to the left */
-            display: block; /* Force block display for consistency */
-        }
-
-        .text-sm {
-            font-size: 0.875rem; /* Keep text readable */
-            line-height: 1.25rem; /* Keep better line spacing */
-        }
-    }
-    </style>
 </section>
+
 
 
 
