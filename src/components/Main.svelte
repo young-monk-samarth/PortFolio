@@ -94,7 +94,7 @@
             </div>
 
                 <!-- photo disply-->
-         <div class="wrapper"> <!-- Optional sizing wrapper -->
+       <div class="wrapper"> <!-- Optional sizing wrapper -->
     <div class="box">
         <img 
             src="profile.jpg" 
