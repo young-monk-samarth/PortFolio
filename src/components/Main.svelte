@@ -103,40 +103,7 @@
         />
     </div>
 </div>
-<style>
-.wrapper {
-    width: 400px;  /* Original container size */
-    height: 400px;
-    margin: 0 auto;
-}
 
-.box {
-    position: relative;
-    width: 100%;    /* Half width */
-    height: 100%;   /* Half height */
-    overflow: hidden;
-    border-radius:10px 50px 10px 50px;
-}
-
-.box img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: all 1s ease;
-}
-
-.box:hover img {
-    transform: scale(1.2);
-}
-
-/* Only adjust margin for small screens */
-@media (max-width: 480px) {
-    .wrapper {
-        margin: 0 1rem !important; /* Force margin with !important */
-        width: calc(100% - 2rem); /* Adjust width to account for margins */
-    }
-}
-</style>
 </section>
         
 
