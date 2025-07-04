@@ -139,6 +139,17 @@
 }
 </style>
 </section>
+
+<h2 class="font-poppins font-extrabold text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-violet-300 w-full text-justify">
+  An <span class="font-extrabold inline" style="color: #faf5ff;">Engineering graduate</span> and 
+  <span class="font-extrabold inline" style="color: #faf5ff;">aspiring Web Developer</span> passionate about crafting,
+  <span class="text-violet-400 font-extrabold inline">engaging</span>, 
+  <span class="text-violet-300 font-extrabold inline">user-focused</span> experiences that are 
+  <span class="font-extrabold inline" style="color: #faf5ff;">functional</span> and 
+  <span class="text-violet-300 font-extrabold inline">visually compelling</span>.
+</h2>
+
+        
         
 
         <!-- scroll info about creative -->
@@ -217,6 +228,28 @@
                     <p class="text-gray-500 mb-1 text-center">
                         Experimenting, building, and learning.
                     </p>
+
+                 <details class="group">
+  <summary class="cursor-pointer text-violet-400 bg-gray-950 p-4 rounded-lg hover:bg-black transition-all duration-300 ease-in-out flex justify-between items-center shadow-md hover:shadow-lg">
+    <span class="flex items-center text-lg">
+      <i class="fa-solid fa-layer-group mr-2"></i> MonkGPT
+    </span>
+    <span class="text-violet-400 transform transition-transform duration-300 group-open:rotate-180">
+      <i class="fa-solid fa-chevron-down"></i>
+    </span>
+  </summary>
+
+  <div class="accordion-content bg-black group-open:bg-gray-900 p-4 rounded-b-lg border-t border-gray-900 text-gray-200 opacity-0 group-open:opacity-100 transition-all duration-300 ease-in-out">
+    <div class="flex items-start">
+      <p class="text-gray-200 text-[0.8125rem] text-left">
+        MonkGPT is a lightweight AI assistant built using the <strong class="text-violet-400">Gemini API</strong> and <strong class="text-violet-400">JavaScript</strong>. It offers a sleek interface powered by <strong class="text-violet-400">CSS</strong>, combining minimal design with responsive interactivity. Developed in minutes, it's a fast prototype that shows how simple tools can create powerful results.
+      </p>
+      <a href="https://monkgpt.netlify.app/" target="_blank" class="text-violet-400 hover:text-violet-300 transition-colors duration-200 flex items-center ml-auto text-[0.8125rem]">
+        Live <i class="fa-solid fa-globe ml-2"></i>
+      </a>
+    </div>
+  </div>
+</details>
                     <div class="accordion w-full space-y-3 mt-6">
                         <details class="group">
                             <summary class="cursor-pointer text-violet-400 bg-gray-950 p-4 rounded-lg hover:bg-black transition-all duration-300 ease-in-out flex justify-between items-center shadow-md hover:shadow-lg">
