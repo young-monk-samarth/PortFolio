@@ -148,12 +148,13 @@
 </section>
 
 <h2 class="font-poppins font-extrabold text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-violet-300 w-full text-justify">
-  An <span class="font-extrabold inline" style="color: #faf5ff;">Engineering graduate</span> and 
-  <span class="font-extrabold inline" style="color: #faf5ff;">aspiring Web Developer</span> passionate about crafting,
-  <span class="text-violet-400 font-extrabold inline">engaging</span>, 
-  <span class="text-violet-300 font-extrabold inline">user-focused</span> experiences that are 
-  <span class="font-extrabold inline" style="color: #faf5ff;">functional</span> and 
-  <span class="text-violet-300 font-extrabold inline">visually compelling</span>.
+  <span class="font-extrabold inline" style="color: #faf5ff;">Engineering graduate</span> and 
+  <span class="font-extrabold inline" style="color: #faf5ff;">full-stack developer</span> building 
+  <span class="text-violet-400 font-extrabold inline">modern web applications</span> with 
+  <span class="text-violet-300 font-extrabold inline">SvelteKit, React, and Next.js</span>. 
+  Experienced in creating <span class="font-extrabold inline" style="color: #faf5ff;">scalable solutions</span> from 
+  frontend to backend. Leveraging <span class="text-violet-400 font-extrabold inline">AI tools</span> for 
+  <span class="text-violet-300 font-extrabold inline">faster, efficient development</span>.
 </h2>
 
         
@@ -432,16 +433,16 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mt-4">
         <!-- Experience Card 1 -->
-        <div class="relative bg-black rounded-xl shadow-2xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-gray-900/50 border border-gray-700 hover:border-gray-500">
-            <div class="p-4 sm:p-6 bg-gradient-to-br from-gray-950 to-black rounded-xl backdrop-blur-lg transition-all duration-300 hover:from-black hover:to-gray-900">
-                <div class="absolute inset-0 bg-black/50 opacity-100 hover:opacity-0 transition-opacity duration-500"></div>
+        <!-- Experience Card 1 -->
+        <div class="relative bg-black rounded-xl shadow-2xl overflow-hidden transform transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-gray-900/50 border border-gray-800 hover:border-violet-500/30">
+            <div class="p-4 sm:p-6 bg-gray-950 rounded-xl transition-colors duration-300 hover:bg-black h-full">
                 <h3 class="text-lg sm:text-xl md:text-2xl font-semibold bg-gradient-to-r from-violet-200 to-white inline-block text-transparent bg-clip-text">
                     Software Development Intern
                 </h3>
-                <p class="text-xs sm:text-sm md:text-base text-slate-200 mt-2 hover:text-slate-100 transition-colors duration-300">
+                <p class="text-xs sm:text-sm md:text-base text-slate-100 mt-2 hover:text-slate-100 transition-colors duration-300">
                     <span class="font-bold text-violet-300 italic">Inflection Zone Lab Private Limited</span> - Pune, Maharashtra
                 </p>
-                <p class="text-xs sm:text-sm md:text-base text-slate-300 italic hover:text-slate-200 transition-colors duration-300">
+                <p class="text-xs sm:text-sm md:text-base text-slate-200 italic hover:text-slate-200 transition-colors duration-300">
                     Sept 2024 – Feb 2025
                 </p>
                 <ul class="mt-3 sm:mt-4 space-y-2 sm:space-y-3 text-slate-200 hover:text-slate-100 transition-colors duration-300 text-xs sm:text-sm md:text-base">
@@ -462,43 +463,68 @@
         </div>
 
       <!-- Experience Card 2 -->
-<div class="relative bg-black rounded-xl shadow-2xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-gray-900/50 border border-gray-700 hover:border-gray-500">
-    <div class="p-4 sm:p-6 bg-gradient-to-br from-gray-950 to-black rounded-xl backdrop-blur-lg transition-all duration-300 hover:from-black hover:to-gray-900">
-        <div class="absolute inset-0 bg-black/50 opacity-100 hover:opacity-0 transition-opacity duration-500"></div>
+      <!-- Experience Card 2 -->
+      <!-- Experience Card 2 -->
+<div class="relative bg-black rounded-xl shadow-2xl overflow-hidden transform transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-gray-900/50 border border-gray-800 hover:border-violet-500/30">
+    <div class="p-4 sm:p-6 bg-gray-950 rounded-xl transition-colors duration-300 hover:bg-black h-full">
         <h3 class="text-lg sm:text-xl md:text-2xl font-semibold bg-gradient-to-r from-violet-200 to-white inline-block text-transparent bg-clip-text">
-            Software Developer
+            Software Development Intern
         </h3>
-        <p class="text-xs sm:text-sm md:text-base text-slate-200 mt-2 hover:text-slate-100 transition-colors duration-300">
-            <span class="font-bold text-violet-300 italic">Inflection Zone Lab Private Limited</span> - Pune, Maharashtra
+        <p class="text-xs sm:text-sm md:text-base text-slate-100 mt-2">
+            <span class="font-bold text-violet-300 italic">Inflection Zone Lab Private Limited</span> - Pune
         </p>
-        <p class="text-xs sm:text-sm md:text-base text-slate-300 italic hover:text-slate-200 transition-colors duration-300">
-            March 1, 2025 – Present
+        <p class="text-xs sm:text-sm md:text-base text-slate-300 italic mt-1">
+            Sept 2024 – Jun 2025
         </p>
-        <ul class="mt-3 sm:mt-4 space-y-2 sm:space-y-3 text-slate-200 hover:text-slate-100 transition-colors duration-300 text-xs sm:text-sm md:text-base">
+        <ul class="mt-4 space-y-3 text-slate-200 text-xs sm:text-sm md:text-base">
             <li class="flex items-start">
-                <span class="text-violet-400 mr-2">•</span>
-                
+                <span class="text-violet-400 mr-2 mt-1">▹</span>
+                <span>Built a <strong>cloud-based IDE</strong> using 8+ technologies including SvelteKit, Express.js, Docker, Monaco Editor, and xterm.js.</span>
+            </li>
+            <li class="flex items-start">
+                <span class="text-violet-400 mr-2 mt-1">▹</span>
+                <span>Implemented scalable <strong>microservices architecture</strong> with 5 core services: PostgreSQL, Redis, MinIO, JWT, and Socket.io.</span>
+            </li>
+            <li class="flex items-start">
+                <span class="text-violet-400 mr-2 mt-1">▹</span>
+                <span>Built modern UI with <strong>shadcn/ui</strong>, managed 100+ port mappings, and set up automated Docker orchestration.</span>
+            </li>
+            <li class="flex items-start">
+                <span class="text-violet-400 mr-2 mt-1">▹</span>
+                <span>Created a <strong>zero-setup</strong> browser coding platform accessible on any device.</span>
             </li>
         </ul>
     </div>
 </div>
         <!-- Experience Card 3 -->
-        <div class="relative bg-black rounded-xl shadow-2xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-gray-900/50 border border-gray-700 hover:border-gray-500">
-            <div class="p-4 sm:p-6 bg-gradient-to-br from-gray-950 to-black rounded-xl backdrop-blur-lg transition-all duration-300 hover:from-black hover:to-gray-900">
-                <div class="absolute inset-0 bg-black/50 opacity-100 hover:opacity-0 transition-opacity duration-500"></div>
+        <!-- Experience Card 3 -->
+        <div class="relative bg-black rounded-xl shadow-2xl overflow-hidden transform transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-gray-900/50 border border-gray-800 hover:border-violet-500/30">
+            <div class="p-4 sm:p-6 bg-gray-950 rounded-xl transition-colors duration-300 hover:bg-black h-full">
                 <h3 class="text-lg sm:text-xl md:text-2xl font-semibold bg-gradient-to-r from-violet-200 to-white inline-block text-transparent bg-clip-text">
-                    ...
+                    Next.js Developer Trainee
                 </h3>
-                <p class="text-xs sm:text-sm md:text-base text-slate-200 mt-2 hover:text-slate-100 transition-colors duration-300">
-                    <!-- Fill in the details here -->
+                <p class="text-xs sm:text-sm md:text-base text-slate-100 mt-2">
+                    <span class="font-bold text-violet-300 italic">Reora Technologies</span>
                 </p>
-                <p class="text-xs sm:text-sm md:text-base text-slate-300 italic hover:text-slate-200 transition-colors duration-300">
-                    <!-- Fill in the date range here -->
+                <p class="text-xs sm:text-sm md:text-base text-slate-300 italic mt-1">
+                    Dec 12, 2025 – Jan 11, 2026
                 </p>
-                <ul class="mt-3 sm:mt-4 space-y-2 sm:space-y-3 text-slate-200 hover:text-slate-100 transition-colors duration-300 text-xs sm:text-sm md:text-base">
+                <ul class="mt-4 space-y-3 text-slate-200 text-xs sm:text-sm md:text-base">
                     <li class="flex items-start">
-                        <span class="text-violet-400 mr-2">•</span>
-                        <!-- Fill in the responsibilities here -->
+                        <span class="text-violet-400 mr-2 mt-1">▹</span>
+                        <span>Completed intensive training in <strong>Next.js</strong>, mastering App Router, Server Components, and Server Actions.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-violet-400 mr-2 mt-1">▹</span>
+                        <span>Built responsive web applications using <strong>Tailwind CSS</strong>, focusing on performance.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-violet-400 mr-2 mt-1">▹</span>
+                        <span>Implemented dynamic routing and optimized data fetching strategies.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-violet-400 mr-2 mt-1">▹</span>
+                        <span>Adopted production-grade code standards and strict <strong>Git workflows</strong>.</span>
                     </li>
                 </ul>
             </div>
@@ -970,11 +996,13 @@
             </div>
             <div class="bg-slate-950 p-4 rounded-lg border-l-4 border-violet-400 shadow-md hover:shadow-xl hover:scale-[1.02] transition duration-300 ease-in-out">
                 <h3 class="text-violet-300 text-lg sm:text-2xl font-semibold mb-2 flex flex-col sm:flex-row sm:justify-between sm:items-center cursor-pointer gap-2">
-                    <span class="flex items-center flex-shrink-0">Future Certificate Slot <i class="fas fa-question ml-2"></i></span>
-                    <span class="text-violet-600 text-sm sm:text-base sm:text-right">??/??/????</span>
+                    <span class="flex items-center flex-shrink-0"><span class="text-violet-100">React</span>: Bootcamp Masterclass <i class="fas fa-atom ml-2"></i></span>
+                    <span class="text-violet-600 text-sm sm:text-base sm:text-right">04/10/2025</span>
                 </h3>
                 <div class="text-gray-300 mt-2 text-sm sm:text-base">
-                    <p>This slot is reserved for a future certificate.</p>
+                    <p>Issued by: <span class="font-bold text-violet-600">Scaler</span> <i class="fas fa-building ml-2"></i></p>
+                    <p>For: Participating and upskilling with the React Bootcamp Masterclass</p>
+                    <p class="font-bold text-violet-400 mt-2">Issued by: Anshuman Singh & Abhimanyu Saxena <i class="fas fa-user-tie ml-2"></i></p>
                 </div>
             </div>
             <div class="bg-slate-950 p-4 rounded-lg border-l-4 border-violet-400 shadow-md hover:shadow-xl hover:scale-[1.02] transition duration-300 ease-in-out">
