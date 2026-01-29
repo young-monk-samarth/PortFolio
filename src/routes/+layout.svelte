@@ -2,8 +2,24 @@
 import Footer from "../components/Footer.svelte";
 import Header from "../components/Header.svelte";
 
-import { onMount } from 'svelte';
+    import { onMount } from 'svelte';
+    import Lenis from 'lenis';
     import { initializeAnimations, addStepClass } from '../lib/animation'; // Import animations
+
+    onMount(() => {
+        const lenis = new Lenis({
+            autoRaf: true,
+        });
+
+        // Optional: Listen to scroll events
+        // lenis.on('scroll', (e) => {
+        //     console.log(e);
+        // });
+
+        return () => {
+            lenis.destroy();
+        };
+    });
     let y;
     let innerWidth = 0;
     let innerHeight = 0;

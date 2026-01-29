@@ -147,14 +147,14 @@
 </style>
 </section>
 
-<h2 class="font-poppins font-extrabold text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-violet-300 w-full text-justify">
-  <span class="font-extrabold inline" style="color: #faf5ff;">Engineering graduate</span> and 
-  <span class="font-extrabold inline" style="color: #faf5ff;">full-stack developer</span> building 
-  <span class="text-violet-400 font-extrabold inline">modern web applications</span> with 
-  <span class="text-violet-300 font-extrabold inline">SvelteKit, React, and Next.js</span>. 
-  Experienced in creating <span class="font-extrabold inline" style="color: #faf5ff;">scalable solutions</span> from 
-  frontend to backend. Leveraging <span class="text-violet-400 font-extrabold inline">AI tools</span> for 
-  <span class="text-violet-300 font-extrabold inline">faster, efficient development</span>.
+<h2 class="font-sans font-medium text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-slate-400 w-full text-justify">
+  <span class="font-bold text-white inline">Engineering graduate</span> and 
+  <span class="font-bold text-white inline">full-stack developer</span> building 
+  <span class="text-white font-bold inline">modern web applications</span> with 
+  <span class="text-white font-bold inline">SvelteKit, React, and Next.js</span>. 
+  Experienced in creating <span class="font-bold text-white inline">scalable solutions</span> from 
+  frontend to backend. Leveraging <span class="text-white font-bold inline">AI tools</span> for 
+  <span class="text-white font-bold inline">faster, efficient development</span>.
 </h2>
 
         
