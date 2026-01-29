@@ -1,87 +1,84 @@
 <footer
-    class="py-20 sm:py-32 bg-black border-t border-solid border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center"
+    class="py-20 sm:py-32 bg-transparent border-t border-solid border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center"
 >
-    <div class="pure-scroller">
+    <div class="pure-scroller-container">
         <div class="scroller-track">
-            <span class="scroll-text">OPEN TO WORK  </span>
-            <span class="scroll-text">LOOKING FOR INTERNSHIP  </span>
-            <span class="scroll-text">OPEN TO WORK  </span>
-            <span class="scroll-text">LOOKING FOR INTERNSHIP  </span>
+            <!-- First set of text -->
+            <span class="scroll-content">
+                <span class="scroll-text">Let's build something great • Available for freelance work</span>
+                <span class="scroll-divider"></span>
+            </span>
+            <!-- Duplicate set for seamless scrolling -->
+            <span class="scroll-content" aria-hidden="true">
+                <span class="scroll-text">Let's build something great • Available for freelance work</span>
+                <span class="scroll-divider"></span>
+            </span>
         </div>
     </div>
 
     <style>
         :root {
             --text-color: white;
-            --scroll-speed: 15s;
+            --scroll-speed: 20s;
             --text-size: 1.5rem;
         }
 
-        .pure-scroller {
-            position: bottom center;
+        .pure-scroller-container {
+            position: relative;
             overflow: hidden;
-            top: 100px; /* Adjust based on header height */
             width: 100%;
-            left: 0;
-            right: 0;
-            z-index: 100;
-            background: #080808; /* Semi-transparent background */
-            color: white !important; /* Text color */
+            background: transparent;
+            color: white;
+            padding: 1rem 0;
+            display: flex;
+            align-items: center;
+            mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+            -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
         }
 
         .scroller-track {
-            display: inline-flex;
+            display: flex;
+            width: max-content;
             animation: scroll var(--scroll-speed) linear infinite;
-            white-space: nowrap;
+        }
+
+        .scroll-content {
+            display: flex;
+            align-items: center;
         }
 
         .scroll-text {
-            display: inline-flex;
-            align-items: center;
             color: var(--text-color);
             font-size: var(--text-size);
             font-weight: 800;
             text-transform: uppercase;
             letter-spacing: 3px;
-            padding: 0 2rem;
-            position: relative;
+            padding: 0 4rem; /* Increased padding for better spacing */
+            white-space: nowrap;
             text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
         }
 
-        .scroll-text::after {
-            content: "\f08c""\f061";
-            font-family: FontAwesome;
-            margin: 0 3rem;
-            opacity: 0.7;
-            font-size: 1rem;
+        .scroll-divider {
+            /* Optional divider or spacing if needed inside content */
         }
 
         @keyframes scroll {
-            0% { transform: translateX(100%); }
-            100% { transform: translateX(-100%); }
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
         }
 
         .scroll-text:hover {
-            animation: text-glow 1.2s ease-in-out infinite;
-        }
-
-        @keyframes text-glow {
-            0%, 100% { 
-                text-shadow: 0 0 10px rgba(0,0,0,0.1),
-                            0 0 20px rgba(0,0,0,0.1);
-            }
-            50% { 
-                text-shadow: 0 0 15px rgba(0,0,0,0.2),
-                            0 0 25px rgba(0,0,0,0.2);
-            }
+            color: #bdecff; /* Subtle hover effect color change */
+            text-shadow: 0 0 10px rgba(189, 236, 255, 0.5);
+            transition: all 0.3s ease;
         }
 
         @media (max-width: 768px) {
             :root {
-                --text-size: 1.8rem;
+                --text-size: 1.2rem; /* Adjusted for mobile */
             }
-            .scroll-text::after {
-                margin: 0 1rem;
+            .scroll-text {
+                padding: 0 2rem;
             }
         }
     </style>

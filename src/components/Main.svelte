@@ -600,7 +600,6 @@
                             </div>
                         </div>
         
-                        <!-- SvelteKit - Frontend/Backend -->
                         <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="frontend backend">
                             <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
                             <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
@@ -608,6 +607,28 @@
                                 <i class="fa-solid fa-rocket text-orange-500 text-2xl mb-2"></i>
                                 <h3 class="poppins font-medium text-lg">SvelteKit</h3>
                                 <p class="text-slate-400 text-sm mt-1">Fullstack</p>
+                            </div>
+                        </div>
+
+                        <!-- React - Frontend -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="frontend">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-brands fa-react text-blue-400 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">React</h3>
+                                <p class="text-slate-400 text-sm mt-1">Component Based</p>
+                            </div>
+                        </div>
+
+                        <!-- Next.js - Fullstack -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="frontend backend">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-n text-white text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">Next.js</h3>
+                                <p class="text-slate-400 text-sm mt-1">React Framework</p>
                             </div>
                         </div>
         
@@ -633,7 +654,6 @@
                             </div>
                         </div>
         
-                        <!-- MongoDB - Database -->
                         <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="database">
                             <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
                             <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
@@ -641,6 +661,17 @@
                                 <i class="fa-solid fa-leaf text-green-600 text-2xl mb-2"></i>
                                 <h3 class="poppins font-medium text-lg">MongoDB</h3>
                                 <p class="text-slate-400 text-sm mt-1">NoSQL</p>
+                            </div>
+                        </div>
+
+                        <!-- PostgreSQL - Database -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="database">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-database text-blue-500 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">PostgreSQL</h3>
+                                <p class="text-slate-400 text-sm mt-1">Relational DB</p>
                             </div>
                         </div>
         
@@ -788,7 +819,6 @@
                             </div>
                         </div>
         
-                        <!-- DeepSeek - Tools -->
                         <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
                             <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
                             <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
@@ -796,6 +826,39 @@
                                 <i class="fa-solid fa-magnifying-glass text-blue-500 text-2xl mb-2"></i>
                                 <h3 class="poppins font-medium text-lg">DeepSeek</h3>
                                 <p class="text-slate-400 text-sm mt-1">AI Search</p>
+                            </div>
+                        </div>
+
+                        <!-- AntiGravity - Tools -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-rocket text-violet-500 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">AntiGravity</h3>
+                                <p class="text-slate-400 text-sm mt-1">AI Assistant</p>
+                            </div>
+                        </div>
+
+                        <!-- Gemini - Tools -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-star text-blue-400 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">Gemini</h3>
+                                <p class="text-slate-400 text-sm mt-1">LLM</p>
+                            </div>
+                        </div>
+
+                        <!-- Google AI Studio - Tools -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-code-branch text-green-400 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">Google AI Studio</h3>
+                                <p class="text-slate-400 text-sm mt-1">Development</p>
                             </div>
                         </div>
         
