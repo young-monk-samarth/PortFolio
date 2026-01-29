@@ -4,7 +4,7 @@
 </script>
 
 {#if isOpen}
-    <nav class="md:hidden mt-4 flex flex-col items-center gap-4 pb-4">
+    <nav class="lg:hidden mt-4 flex flex-col items-center gap-4 pb-4">
         {#each tabs as { name, link }, i}
             <a 
                 href={link} 

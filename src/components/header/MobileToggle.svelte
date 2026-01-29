@@ -7,7 +7,7 @@
 </script>
 
 <button 
-    class="md:hidden text-gray-100 hover:text-violet-400"
+    class="lg:hidden text-gray-100 hover:text-violet-400"
     on:click={toggle}
     aria-label="Toggle Menu"
 >

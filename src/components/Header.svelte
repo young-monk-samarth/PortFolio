@@ -16,7 +16,7 @@
     let isMenuOpen = false;
 </script>
 
-<header class="sticky top-0 z-10 flex flex-col px-4 py-3 md:px-6 md:py-4 duration-200 border-b-2 border-transparent bg-[#0c0a09]">
+<header class="sticky top-0 z-10 flex flex-col px-4 py-3 lg:px-6 lg:py-4 duration-200 border-b border-white/5 bg-black/70 backdrop-blur-md">
     <div class="flex items-center justify-between">
         <Logo />
         <MobileToggle bind:isOpen={isMenuOpen} />
